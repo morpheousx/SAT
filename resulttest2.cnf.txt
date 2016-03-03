@@ -1,0 +1,4 @@
+Genetic Algorithm        MIN-CONFLICTS            WalkSAT                  
+0.0675707                0.000205233              0.000569437              
+0.829268                 0.780488                 0.780488                 
+SATISFIABLE              SATISFIABLE              SATISFIABLE              

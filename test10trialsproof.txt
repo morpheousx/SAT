@@ -1,0 +1,292 @@
+Script started on Mon 12 Oct 2015 05:46:04 AM EDT
+[4mviolet[24m:[1m~/CS463/SAT[0m> sa[K[Kcat test10.cnf
+p cnf 10 48
+ -5 3 -1 0
+ 8 9 -10 0
+ -4 1 6 0
+ 3 8 9 0
+ 5 -10 9 0
+ -7 1 -2 0
+ 6 9 -1 0
+ -7 -6 8 0
+ 8 2 3 0
+ 1 8 -9 0
+ 7 -5 8 0
+ -7 2 1 0
+ 2 -6 -3 0
+ -4 -10 6 0
+ -3 -6 10 0
+ -3 -4 -10 0
+ 6 -3 -4 0
+ 6 -8 5 0
+ 5 -6 9 0
+ -8 -10 -4 0
+ -4 7 5 0
+ 7 -10 3 0
+ -6 2 -5 0
+ -7 9 2 0
+ 3 -10 -1 0
+ -5 9 7 0
+ 6 4 -2 0
+ -8 -10 -7 0
+ 3 7 10 0
+ 4 -1 8 0
+ 8 5 -2 0
+ -9 -4 8 0
+ 5 10 -6 0
+ -10 9 -8 0
+ -10 4 2 0
+ -3 -6 4 0
+ 9 -1 -3 0
+ -3 6 9 0
+ -9 5 -7 0
+ -6 3 9 0
+ -7 6 -8 0
+ -2 -9 -7 0
+ -6 -2 -4 0
+ -3 -4 -9 0
+ 9 -3 5 0
+ 2 -5 -6 0
+ 2 -5 -8 0
+ 8 5 -3 0
+c 1 a_1
+c 2 a_2
+c 3 a_3
+c 4 a_4
+c 5 a_5
+c 6 a_6
+c 7 a_7
+c 8 a_8
+c 9 a_9
+c 10 a_10
+[4mviolet[24m:[1m~/CS463/SAT[0m> ./p3 test10.cnf
+
+Genetic Algorithm solution
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+MIN-CONFLICTS solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+WalkSAT solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+[4mviolet[24m:[1m~/CS463/SAT[0m> ./p3 test10.cnf[21G[Kls
+clause.cpp  example.cnf  makefile	       resulttest4.cnf.txt  solvers.h		  test2.cnf		test5.cnf	      test8.cnf
+clause.h    literal.cpp  p3		       resulttest5.cnf.txt  solvers.o		  test2trialsproof.txt	test5trialsproof.txt  test8trialsproof.txt
+clause.o    literal.h	 resulttest10.cnf.txt  resulttest6.cnf.txt  test10.cnf		  test3.cnf		test6.cnf	      test9.cnf
+CNF.cpp     literal.o	 resulttest1.cnf.txt   resulttest8.cnf.txt  test11.cnf		  test3trialsproof.txt	test6trialsproof.txt  test9trialsproof.txt
+CNF.h	    main.cpp	 resulttest2.cnf.txt   resulttest9.cnf.txt  test1.cnf		  test4.cnf		test7.cnf	      test.cnf
+CNF.o	    main.o	 resulttest3.cnf.txt   solvers.cpp	    test1trialsproof.txt  test4trialsproof.txt	test7trialsproof.txt  typescript
+[4mviolet[24m:[1m~/CS463/SAT[0m> cat resulttest10.cnf.txt
+Genetic Algorithm        MIN-CONFLICTS            WalkSAT                  
+0.120156                 0.000339148              0.000516027              
+0.77551                  0.816327                 0.77551                  
+SATISFIABLE              SATISFIABLE              SATISFIABLE              
+[4mviolet[24m:[1m~/CS463/SAT[0m> cat resulttest10.cnf.txt[21Gls[K./p3 test10.cnf
+
+Genetic Algorithm solution
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+MIN-CONFLICTS solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+WalkSAT solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+[4mviolet[24m:[1m~/CS463/SAT[0m> ./p3 test10.cnf[21Gcat resulttest10.cnf.txt
+Genetic Algorithm        MIN-CONFLICTS            WalkSAT                  
+0.119967                 0.000345549              0.000515195              
+0.77551                  0.816327                 0.77551                  
+SATISFIABLE              SATISFIABLE              SATISFIABLE              
+[4mviolet[24m:[1m~/CS463/SAT[0m> cat resulttest10.cnf.txt[21G./p3 test10.cnf[K
+
+Genetic Algorithm solution
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+MIN-CONFLICTS solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+WalkSAT solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+[4mviolet[24m:[1m~/CS463/SAT[0m> ./p3 test10.cnf[21Gcat resulttest10.cnf.txt
+Genetic Algorithm        MIN-CONFLICTS            WalkSAT                  
+0.120549                 0.000339221              0.00051561               
+0.77551                  0.816327                 0.77551                  
+SATISFIABLE              SATISFIABLE              SATISFIABLE              
+[4mviolet[24m:[1m~/CS463/SAT[0m> cat resulttest10.cnf.txt[21G./p3 test10.cnf[K
+
+Genetic Algorithm solution
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+MIN-CONFLICTS solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+WalkSAT solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+[4mviolet[24m:[1m~/CS463/SAT[0m> ./p3 test10.cnf[21Gcat resulttest10.cnf.txt
+Genetic Algorithm        MIN-CONFLICTS            WalkSAT                  
+0.119789                 0.000338249              0.000513538              
+0.77551                  0.816327                 0.77551                  
+SATISFIABLE              SATISFIABLE              SATISFIABLE              
+[4mviolet[24m:[1m~/CS463/SAT[0m> cat resulttest10.cnf.txt[21G./p3 test10.cnf[K
+
+Genetic Algorithm solution
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+MIN-CONFLICTS solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+WalkSAT solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+[4mviolet[24m:[1m~/CS463/SAT[0m> ./p3 test10.cnf[21Gcat resulttest10.cnf.txt
+Genetic Algorithm        MIN-CONFLICTS            WalkSAT                  
+0.1204                   0.000339651              0.000515887              
+0.77551                  0.816327                 0.77551                  
+SATISFIABLE              SATISFIABLE              SATISFIABLE              
+[4mviolet[24m:[1m~/CS463/SAT[0m> cat resulttest10.cnf.txt[21G./p3 test10.cnf[K
+
+Genetic Algorithm solution
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+MIN-CONFLICTS solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+WalkSAT solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+[4mviolet[24m:[1m~/CS463/SAT[0m> ./p3 test10.cnf[21Gcat resulttest10.cnf.txt
+Genetic Algorithm        MIN-CONFLICTS            WalkSAT                  
+0.119872                 0.00033964               0.000516094              
+0.77551                  0.816327                 0.77551                  
+SATISFIABLE              SATISFIABLE              SATISFIABLE              
+[4mviolet[24m:[1m~/CS463/SAT[0m> cat resulttest10.cnf.txt[21G./p3 test10.cnf[K
+
+Genetic Algorithm solution
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+MIN-CONFLICTS solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+WalkSAT solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+[4mviolet[24m:[1m~/CS463/SAT[0m> ./p3 test10.cnf[21Gcat resulttest10.cnf.txt
+Genetic Algorithm        MIN-CONFLICTS            WalkSAT                  
+0.120138                 0.000338852              0.000514258              
+0.77551                  0.816327                 0.77551                  
+SATISFIABLE              SATISFIABLE              SATISFIABLE              
+[4mviolet[24m:[1m~/CS463/SAT[0m> cat resulttest10.cnf.txt[21G./p3 test10.cnf[K
+
+Genetic Algorithm solution
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+MIN-CONFLICTS solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+WalkSAT solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+[4mviolet[24m:[1m~/CS463/SAT[0m> ./p3 test10.cnf[21Gcat resulttest10.cnf.txt
+Genetic Algorithm        MIN-CONFLICTS            WalkSAT                  
+0.119858                 0.000338399              0.000514578              
+0.77551                  0.816327                 0.77551                  
+SATISFIABLE              SATISFIABLE              SATISFIABLE              
+[4mviolet[24m:[1m~/CS463/SAT[0m> cat resulttest10.cnf.txt[21G./p3 test10.cnf[K
+
+Genetic Algorithm solution
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+MIN-CONFLICTS solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+WalkSAT solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+[4mviolet[24m:[1m~/CS463/SAT[0m> ./p3 test10.cnf[21Gcat resulttest10.cnf.txt
+Genetic Algorithm        MIN-CONFLICTS            WalkSAT                  
+0.120215                 0.000339446              0.000515568              
+0.77551                  0.816327                 0.77551                  
+SATISFIABLE              SATISFIABLE              SATISFIABLE              
+[4mviolet[24m:[1m~/CS463/SAT[0m> cat resulttest10.cnf.txt[21G./p3 test10.cnf[K
+
+Genetic Algorithm solution
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+MIN-CONFLICTS solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+WalkSAT solution 
+    x5 = 1
+    x3 = 1
+    x1 = 1
+
+[4mviolet[24m:[1m~/CS463/SAT[0m> ./p3 test10.cnf[21Gcat resulttest10.cnf.txt
+Genetic Algorithm        MIN-CONFLICTS            WalkSAT                  
+0.120121                 0.000339579              0.000515959              
+0.77551                  0.816327                 0.77551                  
+SATISFIABLE              SATISFIABLE              SATISFIABLE              
+[4mviolet[24m:[1m~/CS463/SAT[0m> exit
+exit
+
+Script done on Mon 12 Oct 2015 05:53:47 AM EDT
